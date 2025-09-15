@@ -191,21 +191,35 @@ class ClaudeManagerApp(App):
     CSS = """
     .section-title {
         text-style: bold;
-        color: $primary;
+        color: $accent;
         margin: 1;
+        background: $surface;
+        padding: 1;
     }
 
     #token-display {
         text-align: center;
         margin: 1;
         padding: 1;
-        border: solid $primary;
+        border: solid $success;
+        background: $surface;
     }
 
     #project-info {
         margin: 1;
         padding: 1;
-        border: solid $secondary;
+        border: solid $accent;
+        background: $surface;
+        color: $text;
+    }
+
+    Checkbox {
+        margin: 0 1;
+        background: $panel;
+    }
+
+    Checkbox:focus {
+        background: $accent;
     }
     """
 
