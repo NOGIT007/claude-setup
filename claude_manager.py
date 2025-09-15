@@ -98,14 +98,14 @@ class ComponentSelector(Static):
                 checkbox = Checkbox(
                     f"{component.name} - {component.description[:50]}...",
                     value=component.name in self.selected,
-                    id=f"{self.title.lower()}-{component.name}"
+                    id=f"{self.title.lower().replace(' ', '_').replace('-', '_')}-{component.name.replace('-', '_')}"
                 )
                 self.checkboxes.append(checkbox)
                 yield checkbox
 
     def on_checkbox_changed(self, event: Checkbox.Changed) -> None:
         """Handle checkbox state changes"""
-        component_name = event.checkbox.id.split("-", 1)[1]
+        component_name = event.checkbox.id.split("-", 1)[1].replace("_", "-")
         if event.value:
             self.selected.add(component_name)
         else:
