@@ -344,12 +344,39 @@ class ClaudeManagerApp(App):
         claude_dir = self.project_config.project_path / ".claude"
         claude_dir.mkdir(exist_ok=True)
 
-        # Write CLAUDE.md
         claude_md_path = claude_dir / "CLAUDE.md"
+
+        # Create backup if file exists
+        if claude_md_path.exists():
+            self.create_backup(claude_md_path)
+
+        # Write CLAUDE.md
         claude_md_path.write_text(claude_md_content)
 
         self.notify(f"Generated {claude_md_path}")
         self.exit()
+
+    def create_backup(self, claude_md_path: Path):
+        """Create backup of existing CLAUDE.md"""
+        backup_dir = claude_md_path.parent / "history"
+        backup_dir.mkdir(exist_ok=True)
+
+        # Create timestamped backup
+        from datetime import datetime
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        backup_path = backup_dir / f"CLAUDE_{timestamp}.md"
+
+        # Copy current file to backup
+        import shutil
+        shutil.copy2(claude_md_path, backup_path)
+
+        # Clean old backups (keep last 10)
+        backups = sorted(backup_dir.glob("CLAUDE_*.md"))
+        if len(backups) > 10:
+            for old_backup in backups[:-10]:
+                old_backup.unlink()
+
+        self.notify(f"Backup created: {backup_path.name}")
 
     def generate_claude_md(self) -> str:
         """Generate the CLAUDE.md content based on selections"""
