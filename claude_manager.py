@@ -95,17 +95,25 @@ class ComponentSelector(Static):
         with Vertical():
             yield Label(f"[bold]{self.title}[/bold]", classes="section-title")
             for component in self.components:
+                # Create valid ID by replacing invalid characters
+                title_clean = self.title.lower().replace(' ', '_').replace('-', '_')
+                name_clean = component.name.replace('-', '_').replace(' ', '_')
                 checkbox = Checkbox(
                     f"{component.name} - {component.description[:50]}...",
                     value=component.name in self.selected,
-                    id=f"{self.title.lower().replace(' ', '_').replace('-', '_')}-{component.name.replace('-', '_')}"
+                    id=f"{title_clean}_{name_clean}"
                 )
                 self.checkboxes.append(checkbox)
                 yield checkbox
 
     def on_checkbox_changed(self, event: Checkbox.Changed) -> None:
         """Handle checkbox state changes"""
-        component_name = event.checkbox.id.split("-", 1)[1].replace("_", "-")
+        # Extract component name from ID (format: category_componentname)
+        parts = event.checkbox.id.split("_", 1)
+        if len(parts) > 1:
+            component_name = parts[1].replace("_", "-")
+        else:
+            component_name = parts[0].replace("_", "-")
         if event.value:
             self.selected.add(component_name)
         else:
@@ -129,17 +137,24 @@ class MCPServerSelector(Static):
             yield Label("[bold]MCP Servers[/bold]", classes="section-title")
             for server in self.servers:
                 tokens_kb = server.token_usage / 1000
+                # Create valid ID for MCP server
+                server_name_clean = server.name.replace('-', '_').replace(' ', '_')
                 checkbox = Checkbox(
                     f"{server.name} ({tokens_kb:.1f}k tokens) - {server.description[:40]}...",
                     value=server.name in self.selected,
-                    id=f"mcp-{server.name}"
+                    id=f"mcp_{server_name_clean}"
                 )
                 self.checkboxes.append(checkbox)
                 yield checkbox
 
     def on_checkbox_changed(self, event: Checkbox.Changed) -> None:
         """Handle MCP server selection changes"""
-        server_name = event.checkbox.id.split("-", 1)[1]
+        # Extract server name from ID (format: mcp_servername)
+        parts = event.checkbox.id.split("_", 1)
+        if len(parts) > 1:
+            server_name = parts[1].replace("_", "-")
+        else:
+            server_name = parts[0].replace("_", "-")
         if event.value:
             self.selected.add(server_name)
         else:
