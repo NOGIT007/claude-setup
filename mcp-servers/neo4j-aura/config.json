@@ -1,0 +1,20 @@
+{
+  "name": "neo4j-aura",
+  "description": "Neo4j graph database operations with Cypher queries",
+  "token_usage": 1421,
+  "tools_count": 3,
+  "category": "database",
+  "use_cases": [
+    "Graph database queries",
+    "Cypher operations",
+    "Schema exploration",
+    "Graph data analysis"
+  ],
+  "when_to_load": [
+    "query database",
+    "graph database",
+    "cypher query",
+    "neo4j operations"
+  ],
+  "estimated_tokens": "1.4k tokens"
+}

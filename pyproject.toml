@@ -1,0 +1,83 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "claude-manager"
+version = "1.0.0"
+description = "TUI tool to manage Claude Code configurations and optimize token usage"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Kenneth Kusk", email = "kennet.dahl.kusk@visma.com"}
+]
+keywords = ["claude", "ai", "configuration", "tui", "token-optimization"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development",
+    "Topic :: Terminals",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "textual>=0.41.0",
+    "click>=8.0.0",
+    "gitpython>=3.1.0",
+    "pyyaml>=6.0.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "flake8>=4.0.0",
+    "mypy>=0.900",
+]
+
+[project.urls]
+Homepage = "https://github.com/NOGIT007/claude-setup"
+Repository = "https://github.com/NOGIT007/claude-setup"
+Issues = "https://github.com/NOGIT007/claude-setup/issues"
+
+[project.scripts]
+claude-manager = "claude_manager:main"
+
+[tool.hatch.build]
+include = [
+    "claude_manager.py",
+    "agents/*.md",
+    "commands/*.md",
+    "output-styles/*.md",
+    "mcp-servers/*/*.json",
+    "documentation/*.md",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]

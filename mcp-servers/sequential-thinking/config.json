@@ -1,0 +1,20 @@
+{
+  "name": "sequential-thinking",
+  "description": "Advanced reasoning and problem-solving through structured thinking",
+  "token_usage": 1300,
+  "tools_count": 1,
+  "category": "reasoning",
+  "use_cases": [
+    "Complex problem solving",
+    "Multi-step analysis",
+    "Structured reasoning",
+    "Decision making"
+  ],
+  "when_to_load": [
+    "complex problem",
+    "need reasoning",
+    "analyze problem",
+    "structured thinking"
+  ],
+  "estimated_tokens": "1.3k tokens"
+}

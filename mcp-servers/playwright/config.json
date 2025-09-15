@@ -1,0 +1,20 @@
+{
+  "name": "playwright",
+  "description": "Browser automation and testing with Playwright",
+  "token_usage": 12800,
+  "tools_count": 22,
+  "category": "testing",
+  "use_cases": [
+    "Web UI testing",
+    "Browser automation",
+    "Screenshot capture",
+    "Form interaction"
+  ],
+  "when_to_load": [
+    "test UI",
+    "browser testing",
+    "take screenshot",
+    "web automation"
+  ],
+  "estimated_tokens": "12.8k tokens"
+}

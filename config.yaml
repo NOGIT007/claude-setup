@@ -1,0 +1,59 @@
+# Claude Setup Manager Configuration
+version: "1.0.0"
+
+# GitHub repository settings
+github:
+  owner: "NOGIT007"
+  repo: "claude-setup"
+  branch: "main"
+
+# Default project settings
+defaults:
+  output_style: "minimal"
+  agents: []
+  commands: []
+  mcp_servers: []
+
+# Token usage limits and warnings
+token_limits:
+  warning_threshold: 10000  # 10k tokens
+  error_threshold: 20000    # 20k tokens
+  max_context: 200000       # 200k tokens
+
+# Component categories and their default token estimates
+component_estimates:
+  agents: 200
+  commands: 150
+  output_styles: 100
+
+# MCP server loading triggers
+mcp_triggers:
+  github:
+    - "prepare to commit"
+    - "push to github"
+    - "create pull request"
+    - "git"
+  playwright:
+    - "test ui"
+    - "browser"
+    - "screenshot"
+    - "automation"
+  neo4j-aura:
+    - "query database"
+    - "graph"
+    - "cypher"
+    - "neo4j"
+  context7:
+    - "documentation"
+    - "library docs"
+    - "api reference"
+  sequential-thinking:
+    - "complex problem"
+    - "reasoning"
+    - "analyze"
+
+# Backup settings
+backup:
+  enabled: true
+  max_backups: 10
+  backup_dir: ".claude/history"

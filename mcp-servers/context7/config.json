@@ -1,0 +1,20 @@
+{
+  "name": "context7",
+  "description": "Library documentation and code examples retrieval",
+  "token_usage": 1343,
+  "tools_count": 2,
+  "category": "documentation",
+  "use_cases": [
+    "Library documentation",
+    "Code examples",
+    "API references",
+    "Framework guides"
+  ],
+  "when_to_load": [
+    "get documentation",
+    "library docs",
+    "code examples",
+    "API reference"
+  ],
+  "estimated_tokens": "1.3k tokens"
+}

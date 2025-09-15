@@ -1,0 +1,20 @@
+{
+  "name": "github",
+  "description": "GitHub API integration for repositories, issues, and pull requests",
+  "token_usage": 13500,
+  "tools_count": 26,
+  "category": "development",
+  "use_cases": [
+    "Git commits and pushes",
+    "Creating pull requests",
+    "Managing issues",
+    "Repository operations"
+  ],
+  "when_to_load": [
+    "prepare to commit",
+    "push to github",
+    "create pull request",
+    "manage issues"
+  ],
+  "estimated_tokens": "13.5k tokens"
+}

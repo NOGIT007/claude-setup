@@ -1,0 +1,437 @@
+[
+  {
+    "timestamp": "2025-09-15T12:57:02.222414",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.696124549999998,
+        "total_duration_ms": 5639407,
+        "total_api_duration_ms": 422859,
+        "total_lines_added": 644,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b14\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:57:10.465674",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.718367399999998,
+        "total_duration_ms": 5647651,
+        "total_api_duration_ms": 432049,
+        "total_lines_added": 664,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b15\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:57:18.002306",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.7406363999999983,
+        "total_duration_ms": 5655184,
+        "total_api_duration_ms": 437649,
+        "total_lines_added": 684,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b15\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:57:26.446691",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.7632493499999984,
+        "total_duration_ms": 5663618,
+        "total_api_duration_ms": 444011,
+        "total_lines_added": 704,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b15\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:57:33.468282",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.7857529499999982,
+        "total_duration_ms": 5670652,
+        "total_api_duration_ms": 448869,
+        "total_lines_added": 724,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b15\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:57:40.903348",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.8083796999999984,
+        "total_duration_ms": 5678088,
+        "total_api_duration_ms": 454059,
+        "total_lines_added": 744,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b15\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:57:50.906119",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.8381876999999984,
+        "total_duration_ms": 5688085,
+        "total_api_duration_ms": 461756,
+        "total_lines_added": 744,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b15\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:57:54.500793",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.8381876999999984,
+        "total_duration_ms": 5691629,
+        "total_api_duration_ms": 461756,
+        "total_lines_added": 744,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b15\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:58:49.381095",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.9254944499999986,
+        "total_duration_ms": 5746541,
+        "total_api_duration_ms": 517776,
+        "total_lines_added": 1208,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b16\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:58:52.880700",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.9254944499999986,
+        "total_duration_ms": 5750029,
+        "total_api_duration_ms": 517776,
+        "total_lines_added": 1208,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b16\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:59:03.541757",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.9719543999999987,
+        "total_duration_ms": 5760705,
+        "total_api_duration_ms": 529454,
+        "total_lines_added": 1291,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b17\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:59:07.076830",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.9719543999999987,
+        "total_duration_ms": 5764210,
+        "total_api_duration_ms": 529454,
+        "total_lines_added": 1291,
+        "total_lines_removed": 0
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b17\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:59:10.212182",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 3.9973264499999988,
+        "total_duration_ms": 5767394,
+        "total_api_duration_ms": 533716,
+        "total_lines_added": 1292,
+        "total_lines_removed": 1
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b17\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T12:59:14.225080",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 4.020070199999998,
+        "total_duration_ms": 5771361,
+        "total_api_duration_ms": 537436,
+        "total_lines_added": 1292,
+        "total_lines_removed": 1
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b17\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T13:00:32.580613",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup/mcp-servers",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 4.021241399999998,
+        "total_duration_ms": 5849755,
+        "total_api_duration_ms": 539365,
+        "total_lines_added": 1292,
+        "total_lines_removed": 1
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 mcp-servers\u001b[0m | \u001b[33m\ud83e\udde0 1 claude\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b17\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  }
+]
