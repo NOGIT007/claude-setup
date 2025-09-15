@@ -278,9 +278,6 @@ class ClaudeManagerApp(App):
         Binding("s", "sync", "Sync"),
         Binding("u", "upload", "Upload"),
         Binding("d", "download", "Download"),
-        Binding("up", "cursor_up", "Up", show=False),
-        Binding("down", "cursor_down", "Down", show=False),
-        Binding("space", "toggle_selection", "Toggle", show=False),
     ]
 
     def __init__(self):
@@ -525,11 +522,19 @@ class ClaudeManagerApp(App):
 
     def action_cursor_up(self):
         """Move focus up"""
-        self.focus_previous()
+        try:
+            self.screen.focus_previous()
+        except AttributeError:
+            # Fallback for older Textual versions
+            pass
 
     def action_cursor_down(self):
         """Move focus down"""
-        self.focus_next()
+        try:
+            self.screen.focus_next()
+        except AttributeError:
+            # Fallback for older Textual versions
+            pass
 
     def action_toggle_selection(self):
         """Toggle the currently focused checkbox"""
