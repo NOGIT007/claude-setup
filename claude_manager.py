@@ -191,35 +191,84 @@ class ClaudeManagerApp(App):
     CSS = """
     .section-title {
         text-style: bold;
-        color: $accent;
-        margin: 1;
-        background: $surface;
-        padding: 1;
+        color: #66d9ff;
+        margin: 0 0 1 0;
+        background: transparent;
+        padding: 0 1;
     }
 
     #token-display {
         text-align: center;
-        margin: 1;
+        margin: 0 1 1 1;
         padding: 1;
-        border: solid $success;
-        background: $surface;
+        border: solid #00ff88;
+        background: #1a1a1a;
+        color: #00ff88;
     }
 
     #project-info {
-        margin: 1;
+        margin: 0 1 1 1;
         padding: 1;
-        border: solid $accent;
-        background: $surface;
-        color: $text;
+        border: solid #ffaa00;
+        background: #1a1a1a;
+        color: #ffaa00;
+    }
+
+    .left-column {
+        width: 50%;
+        padding: 0 1;
+    }
+
+    .right-column {
+        width: 50%;
+        padding: 0 1;
+    }
+
+    .button-row {
+        height: 3;
+        margin: 1;
+        align: center middle;
     }
 
     Checkbox {
-        margin: 0 1;
-        background: $panel;
+        margin: 0;
+        padding: 0 1;
+        background: transparent;
+        color: #ffffff;
     }
 
     Checkbox:focus {
-        background: $accent;
+        background: #333333;
+        color: #66d9ff;
+    }
+
+    Checkbox.-checked {
+        color: #00ff88;
+    }
+
+    Button {
+        margin: 0 1;
+    }
+
+    Button.-primary {
+        background: #00ff88;
+        color: #000000;
+    }
+
+    ComponentSelector {
+        height: auto;
+        max-height: 20;
+        margin: 0 0 1 0;
+        border: solid #444444;
+        background: #1a1a1a;
+    }
+
+    MCPServerSelector {
+        height: auto;
+        max-height: 20;
+        margin: 0 0 1 0;
+        border: solid #444444;
+        background: #1a1a1a;
     }
     """
 
@@ -229,6 +278,9 @@ class ClaudeManagerApp(App):
         Binding("s", "sync", "Sync"),
         Binding("u", "upload", "Upload"),
         Binding("d", "download", "Download"),
+        Binding("up", "cursor_up", "Up", show=False),
+        Binding("down", "cursor_down", "Down", show=False),
+        Binding("space", "toggle_selection", "Toggle", show=False),
     ]
 
     def __init__(self):
@@ -314,49 +366,45 @@ class ClaudeManagerApp(App):
         """Build the UI"""
         yield Header()
 
-        with ScrollableContainer():
-            # Project info
-            project_name = self.project_config.project_path.name
-            status = "Existing" if self.project_config.is_existing else "New"
-            yield Static(
-                f"Project: {project_name} ({status})",
-                id="project-info"
-            )
+        # Top info section
+        project_name = self.project_config.project_path.name
+        status = "Existing" if self.project_config.is_existing else "New"
+        yield Static(f"Project: {project_name} ({status})", id="project-info")
+        yield TokenDisplay(self.project_config)
 
-            # Token display
-            yield TokenDisplay(self.project_config)
+        # Main content in horizontal layout
+        with Horizontal():
+            # Left column - Components
+            with Vertical(classes="left-column"):
+                yield ComponentSelector(
+                    "Agents",
+                    self.components.get("agents", []),
+                    self.project_config.selected_agents
+                )
+                yield ComponentSelector(
+                    "Commands",
+                    self.components.get("commands", []),
+                    self.project_config.selected_commands
+                )
 
-            # Component selectors
-            yield ComponentSelector(
-                "Agents",
-                self.components.get("agents", []),
-                self.project_config.selected_agents
-            )
+            # Right column - Styles and MCP
+            with Vertical(classes="right-column"):
+                yield ComponentSelector(
+                    "Output Styles",
+                    self.components.get("output-styles", []),
+                    self.project_config.selected_output_styles
+                )
+                yield MCPServerSelector(
+                    self.mcp_servers,
+                    self.project_config.selected_mcp_servers
+                )
 
-            yield ComponentSelector(
-                "Commands",
-                self.components.get("commands", []),
-                self.project_config.selected_commands
-            )
-
-            yield ComponentSelector(
-                "Output Styles",
-                self.components.get("output-styles", []),
-                self.project_config.selected_output_styles
-            )
-
-            # MCP servers
-            yield MCPServerSelector(
-                self.mcp_servers,
-                self.project_config.selected_mcp_servers
-            )
-
-            # Action buttons
-            with Horizontal():
-                yield Button("Generate CLAUDE.md", id="generate-btn")
-                yield Button("Sync with GitHub", id="sync-btn")
-                yield Button("Upload to GitHub", id="upload-btn")
-                yield Button("Download from GitHub", id="download-btn")
+        # Bottom action buttons
+        with Horizontal(classes="button-row"):
+            yield Button("Generate", id="generate-btn", variant="primary")
+            yield Button("Sync", id="sync-btn")
+            yield Button("Upload", id="upload-btn")
+            yield Button("Download", id="download-btn")
 
         yield Footer()
 
@@ -474,6 +522,20 @@ class ClaudeManagerApp(App):
     def action_quit(self):
         """Quit the application"""
         self.exit()
+
+    def action_cursor_up(self):
+        """Move focus up"""
+        self.focus_previous()
+
+    def action_cursor_down(self):
+        """Move focus down"""
+        self.focus_next()
+
+    def action_toggle_selection(self):
+        """Toggle the currently focused checkbox"""
+        focused = self.focused
+        if isinstance(focused, Checkbox):
+            focused.toggle()
 
     @on(Button.Pressed, "#generate-btn")
     def handle_generate_button(self):
