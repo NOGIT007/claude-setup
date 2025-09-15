@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "claude-manager"
-version = "1.0.0"
+version = "1.0.1"
 description = "TUI tool to manage Claude Code configurations and optimize token usage"
 readme = "README.md"
 license = {file = "LICENSE"}

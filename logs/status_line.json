@@ -4348,5 +4348,817 @@
       "exceeds_200k_tokens": false
     },
     "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T13:57:25.316116",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 6.728758999999999,
+        "total_duration_ms": 9262495,
+        "total_api_duration_ms": 1152654,
+        "total_lines_added": 2388,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T13:57:31.698727",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 6.762959249999999,
+        "total_duration_ms": 9268835,
+        "total_api_duration_ms": 1163323,
+        "total_lines_added": 2388,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[33m\ud83e\udde0 1 claude\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b11\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T13:57:44.993323",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 6.799690799999999,
+        "total_duration_ms": 9282117,
+        "total_api_duration_ms": 1176798,
+        "total_lines_added": 2388,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b11\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:01:12.277361",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 6.799690799999999,
+        "total_duration_ms": 9489352,
+        "total_api_duration_ms": 1176798,
+        "total_lines_added": 2388,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b11\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:01:17.012243",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 6.840339899999999,
+        "total_duration_ms": 9494172,
+        "total_api_duration_ms": 1183754,
+        "total_lines_added": 2388,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b11\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:01:21.145504",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 6.840339899999999,
+        "total_duration_ms": 9498275,
+        "total_api_duration_ms": 1183754,
+        "total_lines_added": 2388,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b11\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:01:25.294791",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 6.8761873499999995,
+        "total_duration_ms": 9502447,
+        "total_api_duration_ms": 1188286,
+        "total_lines_added": 2388,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b11\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:01:33.128775",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 6.9114766,
+        "total_duration_ms": 9510290,
+        "total_api_duration_ms": 1197272,
+        "total_lines_added": 2388,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b11\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:01:40.878567",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 6.94575715,
+        "total_duration_ms": 9518013,
+        "total_api_duration_ms": 1201307,
+        "total_lines_added": 2388,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b11\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:01:47.170341",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 6.946372350000001,
+        "total_duration_ms": 9524284,
+        "total_api_duration_ms": 1204940,
+        "total_lines_added": 2388,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b11\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:01:56.788638",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 6.9873729,
+        "total_duration_ms": 9533946,
+        "total_api_duration_ms": 1216900,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:02:01.309744",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.023367500000001,
+        "total_duration_ms": 9538433,
+        "total_api_duration_ms": 1221134,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:02:52.407384",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.024553900000002,
+        "total_duration_ms": 9588355,
+        "total_api_duration_ms": 1222853,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[33m\ud83e\udde0 1 claude\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:02:56.671328",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.024553900000002,
+        "total_duration_ms": 9593830,
+        "total_api_duration_ms": 1222853,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:03:01.756851",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.025133900000002,
+        "total_duration_ms": 9598889,
+        "total_api_duration_ms": 1229352,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:03:06.726539",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.061625000000002,
+        "total_duration_ms": 9603884,
+        "total_api_duration_ms": 1235312,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:03:10.352720",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.061625000000002,
+        "total_duration_ms": 9607469,
+        "total_api_duration_ms": 1235312,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:08:05.710534",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.276709800000003,
+        "total_duration_ms": 9902876,
+        "total_api_duration_ms": 1281578,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:08:09.554006",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.277323400000003,
+        "total_duration_ms": 9906659,
+        "total_api_duration_ms": 1286747,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:08:14.474439",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.314147800000003,
+        "total_duration_ms": 9911608,
+        "total_api_duration_ms": 1291097,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:08:18.502644",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.314147800000003,
+        "total_duration_ms": 9915621,
+        "total_api_duration_ms": 1291097,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:08:23.009042",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.351005350000003,
+        "total_duration_ms": 9920167,
+        "total_api_duration_ms": 1295503,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:08:27.428079",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.351005350000003,
+        "total_duration_ms": 9924538,
+        "total_api_duration_ms": 1295503,
+        "total_lines_added": 2433,
+        "total_lines_removed": 16
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b12\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:08:32.042589",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.388534450000003,
+        "total_duration_ms": 9929190,
+        "total_api_duration_ms": 1300395,
+        "total_lines_added": 2434,
+        "total_lines_removed": 17
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b13\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:08:37.400495",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.424802500000004,
+        "total_duration_ms": 9934551,
+        "total_api_duration_ms": 1305499,
+        "total_lines_added": 2434,
+        "total_lines_removed": 17
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b13\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:08:46.683114",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.425478500000004,
+        "total_duration_ms": 9943801,
+        "total_api_duration_ms": 1309877,
+        "total_lines_added": 2434,
+        "total_lines_removed": 17
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b13\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:08:48.104546",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.4865648000000045,
+        "total_duration_ms": 9945188,
+        "total_api_duration_ms": 1315849,
+        "total_lines_added": 2434,
+        "total_lines_removed": 17
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b13\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
+  },
+  {
+    "timestamp": "2025-09-15T14:27:56.331414",
+    "input_data": {
+      "session_id": "5761234b-69a5-4479-ade8-970a3a46333e",
+      "transcript_path": "/Users/kennetkusk/.claude/projects/-Users-kennetkusk-code/5761234b-69a5-4479-ade8-970a3a46333e.jsonl",
+      "cwd": "/Users/kennetkusk/code/claude-setup",
+      "model": {
+        "id": "claude-sonnet-4-20250514",
+        "display_name": "Sonnet 4"
+      },
+      "workspace": {
+        "current_dir": "/Users/kennetkusk/code/claude-setup",
+        "project_dir": "/Users/kennetkusk/code"
+      },
+      "version": "1.0.113",
+      "output_style": {
+        "name": "default"
+      },
+      "cost": {
+        "total_cost_usd": 7.574784650000005,
+        "total_duration_ms": 11093464,
+        "total_api_duration_ms": 1345361,
+        "total_lines_added": 2499,
+        "total_lines_removed": 17
+      },
+      "exceeds_200k_tokens": false
+    },
+    "status_line_output": "\u001b[93m\ud83e\udd16 [Sonnet 4]\u001b[0m | \u001b[92m\ud83d\udcc1 claude-setup\u001b[0m | \u001b[32m\ud83c\udf3f main \u00b14\u001b[0m | \u001b[37m\u2728 v1.0.113\u001b[0m"
   }
 ]
